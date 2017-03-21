@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+BODY {
+	margin: 20px 5% 20px 5%;
+	font-size: 1.0em;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #ddd;
+	color: #000;
+}
+
+table, th, td {
+	border: 3px solid #bbb;
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: left;
+}
+
+table th {
+	background-color: #83aad1;
+	color: #dde8ee;
+}
+
+table tr:nth-child(odd) {
+	background-color: #d8d8d8;
+}
+
+table tr:nth-child(even) {
+	background-color: #efefef;
+}
+
+#middle {
+	text-align: center;
+}

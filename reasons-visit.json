@@ -1,0 +1,18 @@
+[
+	{
+		"code": "RA1",
+		"description": "Reason #1"
+	},
+	{
+		"code": "RA2",
+		"description": "Reason #2 with short description"
+	},
+	{
+		"code": "RA3",
+		"description": "Reason #3 with mode details and complete description"
+	},	
+	{
+		"code": "RB1",
+		"description": "Other"
+	}
+]
