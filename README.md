@@ -18,6 +18,7 @@ Online demo: [here](www.gostaf.com/dvisit)
 - CSS and elementary design
 
 ### Todo
+- Update a record
 - Folders structure and routing
 - Zend expressive framework
 - More Input verification
