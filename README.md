@@ -7,7 +7,7 @@ In order to create a new booking record, a user should supply the following:
 - Time for a visit
 
 ## Online demo
-Online demo: [here](www.gostaf.com/dvisit)
+Online demo: [here](http://www.gostaf.com/dvisit)
 
 ### Completed
 - Add a new record
