@@ -1,9 +1,10 @@
-// JS code
+// dVisit main JS code
 (function() {
 
 	var app = angular.module('dVisit', [ 'ui.bootstrap' ]);
 
-	app.controller('FormController', [ '$http', '$scope',	function($http, $scope) {
+	app.controller('FormController', [ '$http', '$scope',
+			function($http, $scope) {
 
 				var type = this;
 				type.reasons = [];
@@ -16,7 +17,7 @@
 				$scope.booking = {};
 				
 				// Form submit PHP action
-				$scope.url = 'addRecord.php';
+				$scope.url = 'api/addRecord.php';
 
 				$scope.handleFormSubmit = function(booking) {
 
@@ -80,19 +81,12 @@
 
 			} ]);
 
+	// TODO: complete toogling and $scope clean-up
 	app.controller('PanelController', function() {
 		this.tab = 1;
 
-		this.selectTab = function(setTab) {
-			this.tab = setTab;
-			if (setTab === 2) {
-				//$scope.message = false;
-			}
-		};
-
 		this.isSelected = function(checkTab) {
 			return this.tab == checkTab;
-
 		};
 	});
 })();
