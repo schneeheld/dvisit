@@ -25,5 +25,20 @@ Online demo: [here](http://www.gostaf.com/dvisit)
 - More RESTful API
 - Standatd PHPT or PHPUnit tests
 
+### Database configuration
+Table structure for the table [`Tdoc`]
+```
+CREATE TABLE Tdoc (
+    ID int(11) unsigned auto_increment not null,
+    uName varchar(32),
+    vReason varchar(64),
+    vDate datetime,
+    vTime time, 
+    primary key (ID),
+    UNIQUE KEY ID_UNIQUE (ID))
+    AUTO_INCREMENT=10000
+    )
+  ```
+
 ### Version
 0.1.a
